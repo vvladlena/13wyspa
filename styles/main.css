@@ -58,7 +58,7 @@ img {
   min-width: 100%; }
 
 .hero {
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 10%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.9) 85%), url("./img/background/hero_background.png") center center no-repeat;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 10%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.9) 85%), url("../img/background/hero_background.png") center center no-repeat;
   height: 100vh;
   min-height: 650px;
   color: #ffffff; }
