@@ -72,7 +72,7 @@ img {
 
 .hero {
   background: -webkit-gradient(linear, left bottom, left top, color-stop(10%, black), color-stop(50%, rgba(0, 0, 0, 0)), color-stop(85%, rgba(0, 0, 0, 0.9))), url("../../img/background/hero_background.png") center center no-repeat;
-  background: linear-gradient(to top, black 10%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.9) 85%), url("../../img/background/hero_background.png") center center no-repeat;
+  background: linear-gradient(to top, black 10%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.9) 85%), url("./../../img/background/hero_background.png") center center no-repeat;
   height: 100vh;
   min-height: 650px;
   color: #fff;
