@@ -1,0 +1,15 @@
+section{
+    height: 100vh;
+    min-height: 650px;
+    padding-bottom: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.section__title{
+    text-transform: uppercase;
+    font-size: 32px;
+    color: $thirdColor;
+    text-align: center;
+    font-weight: bold;
+}
