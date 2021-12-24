@@ -113,8 +113,8 @@ img {
   justify-content: start; }
 
 section {
-  height: 100vh;
-  min-height: 650px;
+  height: auto;
+  min-height: 100vh;
   padding-bottom: 2%;
   display: flex;
   flex-direction: column;
