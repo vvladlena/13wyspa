@@ -158,10 +158,13 @@ section {
   font-size: 0; }
 
 .gallery-item {
-  display: block;
+  display: flex;
   flex: 25%;
   overflow: hidden;
-  position: relative; }
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  transform: translate(-7%); }
 
 .gallery-item-hover {
   position: absolute;

@@ -17,14 +17,18 @@
     flex-wrap: wrap;
     overflow: hidden;
     font-size: 0;
+    // text-align: center;
+
 }
 
 .gallery-item {
-    display: block;
+    display: flex;
     flex: 25%;
     overflow: hidden;
     position: relative;
-
+    align-items: center;
+    justify-content: center;
+    transform: translate(-7%);
 
 }
 
