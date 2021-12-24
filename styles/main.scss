@@ -9,11 +9,15 @@ $thirdColor:#666666;
 //normalize
 @import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css");
 @import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;1,100&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css");
+
 
 @import "layout";
 @import "components/hero";
 @import "components/header";
 @import "components/address";
 @import "components/section";
+@import "components/gallery";
+
 
 
