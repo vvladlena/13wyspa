@@ -250,16 +250,16 @@ footer {
   height: 88px; }
 
 .socials__item--insta .socials__link {
-  background-image: url("../../img/icons/insta.svg"); }
+  background-image: url("../img/icons/insta.svg"); }
   .socials__item--insta .socials__link:hover {
-    background-image: url("../../img/icons/insta-hover.svg"); }
+    background-image: url("../img/icons/insta-hover.svg"); }
 
 .socials__item--fb .socials__link {
-  background-image: url("../../img/icons/facebook.svg"); }
+  background-image: url("../img/icons/facebook.svg"); }
   .socials__item--fb .socials__link:hover {
-    background-image: url("../../img/icons/facebook-hover.svg"); }
+    background-image: url("../img/icons/facebook-hover.svg"); }
 
 .socials__item--telegram .socials__link {
-  background-image: url("../../img/icons/tg.svg"); }
+  background-image: url("../img/icons/tg.svg"); }
   .socials__item--telegram .socials__link:hover {
-    background-image: url("../../img/icons/tg-hover.svg"); }
+    background-image: url("../img/icons/tg-hover.svg"); }
