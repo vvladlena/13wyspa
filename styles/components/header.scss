@@ -19,8 +19,13 @@
     }
 }
 
-
-
 .phone-number{
     text-decoration: none;
+}
+.header__right-part{
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: baseline;
 }

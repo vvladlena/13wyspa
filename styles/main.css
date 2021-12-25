@@ -104,6 +104,13 @@ img {
 .phone-number {
   text-decoration: none; }
 
+.header__right-part {
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: baseline; }
+
 .address {
   display: flex;
   align-items: center;
@@ -263,3 +270,33 @@ footer {
   background-image: url("../img/icons/tg.svg"); }
   .socials__item--telegram .socials__link:hover {
     background-image: url("../img/icons/tg-hover.svg"); }
+
+.dropdown {
+  position: relative;
+  display: flex;
+  font-size: 18px;
+  justify-content: flex-end;
+  align-items: start; }
+
+.dropdown__btn {
+  height: 20px;
+  font-size: 18px; }
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background: rgba(102, 102, 102, 0.3);
+  min-width: 200px;
+  z-index: 1;
+  padding: 5px;
+  border-radius: 5%; }
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  text-align: center; }
+
+.dropdown:hover .dropdown__btn {
+  display: none; }
+
+.dropdown-content__day {
+  font-weight: 500; }
