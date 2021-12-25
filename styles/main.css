@@ -206,9 +206,6 @@ section {
 @media (max-width: 768px) {
   .gallery-item {
     flex: 50%; } }
-@media (max-width: 530px) {
-  .gallery-item {
-    flex: 100%; } }
 footer {
   color: #ffffff;
   height: 150px;
