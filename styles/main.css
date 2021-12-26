@@ -64,12 +64,36 @@ img {
   color: #ffffff;
   height: 100vh; }
 
+.hero__title-name {
+  font-size: 45px;
+  font-weight: 500; }
+
 .hero__container {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 100%; }
 
+.hero__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+.hero__name {
+  width: 35%;
+  font-size: 65px;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 2%;
+  animation: mymove 5s infinite; }
+
+@keyframes mymove {
+  50% {
+    opacity: 0; } }
 .hero__address {
   font-size: 26px; }
 
