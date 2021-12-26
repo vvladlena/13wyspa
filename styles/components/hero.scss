@@ -4,6 +4,14 @@
         url("../img/background/hero_background.png") center center no-repeat;
     color: $light;
     height: 100vh;
+    position: relative;
+
+    &:after{
+        position: absolute;
+        bottom: -110px;
+        right: 0;
+        content: url("../img/decor/spark1.png");
+    }
 }
 
 .hero__title-name {

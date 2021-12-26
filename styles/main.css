@@ -62,7 +62,13 @@ img {
 .hero {
   background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 10%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.9) 85%), url("../img/background/hero_background.png") center center no-repeat;
   color: #ffffff;
-  height: 100vh; }
+  height: 100vh;
+  position: relative; }
+  .hero:after {
+    position: absolute;
+    bottom: -110px;
+    right: 0;
+    content: url("../img/decor/spark1.png"); }
 
 .hero__title-name {
   font-size: 45px;
@@ -280,15 +286,22 @@ footer {
   max-width: 120px;
   max-height: 120px; }
 
-.socials__item {
-  display: inline-block;
-  vertical-align: middle; }
+.socials {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; }
 
-.socials__link {
-  display: block;
-  text-decoration: none;
+.socials__item {
+  position: relative;
   width: 88px;
   height: 88px; }
+
+.socials__link {
+  position: absolute;
+  display: block;
+  text-decoration: none;
+  height: 100%;
+  width: 100%; }
 
 .socials__item--insta .socials__link {
   background-image: url("../img/icons/insta.svg"); }
@@ -304,6 +317,11 @@ footer {
   background-image: url("../img/icons/tg.svg"); }
   .socials__item--telegram .socials__link:hover {
     background-image: url("../img/icons/tg-hover.svg"); }
+
+.socials__item--whatsapp .socials__link {
+  background-image: url("../img/icons/whatsapp.svg"); }
+  .socials__item--whatsapp .socials__link:hover {
+    background-image: url("../img/icons/whatsapp-hover.svg"); }
 
 .dropdown {
   position: relative;

@@ -1,17 +1,25 @@
-.socials__item {
-    display: inline-block;
-    vertical-align: middle;
-    // margin-right: 10px;
-    // &:last-child {
-    //     margin-right: 0;
-    // }
+.socials{
+display: flex;
+align-items: center;
+justify-content: flex-end;
+}
+// .socials__item {
+//     display: inline-block;
+//     vertical-align: middle;
+// }
+.socials__item{
+    position: relative;
+    width: 88px;
+    height: 88px;
 }
 
 .socials__link {
+    position: absolute;
     display: block;
     text-decoration: none;
-    width: 88px;
-    height: 88px;
+    height: 100%;
+    width: 100%;
+   
 }
 
 .socials__item--insta .socials__link {
@@ -35,5 +43,12 @@
 
     &:hover {
         background-image: url("../img/icons/tg-hover.svg");
+    }
+}
+.socials__item--whatsapp .socials__link {
+    background-image: url("../img/icons/whatsapp.svg");
+
+    &:hover {
+        background-image: url("../img/icons/whatsapp-hover.svg");
     }
 }
