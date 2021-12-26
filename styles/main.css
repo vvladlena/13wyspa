@@ -64,7 +64,7 @@ img {
   color: #ffffff;
   height: 100vh;
   position: relative; }
-  .hero:after {
+  .hero:before {
     position: absolute;
     bottom: -110px;
     right: 0;
@@ -87,8 +87,10 @@ img {
 
 .hero__name {
   width: 35%;
+  height: 200px;
   font-size: 65px;
   font-weight: 700;
+  background: radial-gradient(circle, rgba(0, 0, 0, 0.7) 10%, rgba(255, 255, 255, 0) 90%);
   text-transform: uppercase;
   display: flex;
   flex-direction: column;

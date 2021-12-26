@@ -6,7 +6,7 @@
     height: 100vh;
     position: relative;
 
-    &:after{
+    &:before {
         position: absolute;
         bottom: -110px;
         right: 0;
@@ -17,7 +17,6 @@
 .hero__title-name {
     font-size: 45px;
     font-weight: 500;
-
 }
 
 
@@ -32,12 +31,16 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    // -webkit-text-stroke: 1px #000;
 }
 
 .hero__name {
     width: 35%;
+    height: 200px;
     font-size: 65px;
     font-weight: 700;
+    background: radial-gradient(circle, rgba(0, 0, 0, .7) 10%, rgba(255, 255, 255, 0) 90%);
+    // background: radial-gradient(circle, rgba(255, 255, 255, 0) 10%, rgba($dark, 0.7) 50%, rgba(255, 255, 255, 0) 85%);
     text-transform: uppercase;
     display: flex;
     flex-direction: column;
@@ -46,8 +49,11 @@
     // padding-left: 2%;
     animation: mymove 5s infinite;
 }
+
 @keyframes mymove {
-    50% {opacity: 0;}
+    50% {
+        opacity: 0;
+    }
 }
 
 .hero__address {
