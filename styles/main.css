@@ -1,5 +1,5 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css");
-@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;1,100&display=swap");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css");
 html,
 body {
@@ -8,7 +8,7 @@ body {
 body {
   background: #000000;
   font-size: 18px;
-  font-family: "Alegreya Sans", Arial, Helvetica, sans-serif;
+  font-family: 'Abhaya Libre', Arial, Helvetica, serif;
   line-height: 1.42;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -88,7 +88,6 @@ img {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-left: 2%;
   animation: mymove 5s infinite; }
 
 @keyframes mymove {
@@ -120,11 +119,23 @@ img {
   align-items: center;
   justify-content: space-between; }
 
-.menu__link {
-  text-decoration: none;
-  margin-right: 25px; }
-  .menu__link:last-child {
+.menu__item {
+  margin-right: 25px;
+  position: relative; }
+  .menu__item:last-child {
     margin-right: 0; }
+  .menu__item:hover:after {
+    content: '';
+    position: absolute;
+    width: 150%;
+    height: 2px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0) 85%);
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 40px; }
+
+.menu__link {
+  text-decoration: none; }
 
 .phone-number {
   text-decoration: none; }
