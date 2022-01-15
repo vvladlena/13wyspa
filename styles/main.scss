@@ -1,10 +1,17 @@
 $containerWidth: 940px;
 $baseFontSize: 18px;
 
+//breakpoints
+$tablets: 768px;
+$phones: 480px;
+
 //colors
 $dark: #000000;
 $light: #ffffff;
 $thirdColor:#666666;
+
+@import "media";
+
 
 //normalize
 @import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css");
@@ -23,6 +30,9 @@ $thirdColor:#666666;
 @import "components/socials";
 @import "components/dropdown";
 @import "components/slider";
+@import "components/team";
+@import "components/hamburger";
+
 
 
 

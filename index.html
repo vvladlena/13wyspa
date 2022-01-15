@@ -8,6 +8,8 @@
     <title>13 Wyspa</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
     <link rel="stylesheet" href="./styles/main.css">
+    <!-- <link rel="stylesheet" href="https://cdn.rawgit.com/stevenmonson/googleReviews/master/google-places.css"> -->
+
 </head>
 
 <body>
@@ -37,7 +39,7 @@
                             </ul>
                         </nav>
                         <div class="header__right-part">
-                            <a href="tel:+48 513 693 892" class="phone-number">+48 513 693 892</a>
+                            <a href="tel:+48 513 693 892" class="phone-number header__phone-number">+48 513 693 892</a>
                             <div class="dropdown">
                                 <div class="dropdown__btn">Godziny</div>
                                 <div class="dropdown-content">
@@ -48,6 +50,12 @@
                                 </div>
                             </div>
                         </div>
+
+                        <a href="" class="hamburger">
+                            <span class="hamburger__plank"></span>
+                            <span class="hamburger__plank"></span>
+                            <span class="hamburger__plank"></span>
+                        </a>
                     </header>
                     <div class="hero__content">
                         <div class="hero__name">
@@ -67,8 +75,8 @@
                                 <img src="./img/icons/location.svg" alt="location icon" class="icon-location">
                             </div>
                             <div class="address__text">
-                                <div class="adress-street">Uniwersytecka 11/3</div>
-                                <div class="adress-kod">50-145 Wrocław</div>
+                                <div class="address-street">Uniwersytecka 11/3</div>
+                                <div class="address-kod">50-145 Wrocław</div>
                             </div>
 
                         </div>
@@ -80,11 +88,17 @@
                     <h2 class="section__title">Studio</h2>
                     <div class="section__content">
                         <ul class="slider">
-                            <li class="slider__item">
+                            <li class="slider__item slider__item--first">
                                 <img src="./img/studio/studio1.jpeg" alt="" class="slider__img">
+                                <div class="slider__descr">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Exercitationem minus debitis, repudiandae excepturi obcaecati perspiciatis quos
+                                    sequi error qui quia?</div>
                             </li>
-                            <li class="slider__item">
+                            <li class="slider__item slider__item--two">
                                 <img src="./img/studio/studio2.jpeg" alt="" class="slider__img">
+                                <div class="slider__descr">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Explicabo, porro. Dignissimos enim et ipsum eius laborum assumenda quasi vitae
+                                    laboriosam cum tempore, laudantium fuga repellat dicta debitis quo?</div>
                             </li>
                         </ul>
 
@@ -171,19 +185,137 @@
                     </div>
                 </div>
             </section>
-
             <section id="workers" class="section" class="section__workers">
-                <h2 class="section__title">Artyści</h2>
-                <div class="section__content">
+                <div class="container">
+                    <h2 class="section__title">Artyści</h2>
+
+                    <!-- desktop -->
+                    <ul class="workers workers--version--desktop">
+                        <li class="workers__item">
+                            <div class="workers__image">
+                                <img src="./img/team/person1.jpg" alt="" class="workers__img">
+                            </div>
+                            <button class="workers__title" type="button">Imię Imię</button>
+                            <div class="workers__content">
+                                <div class="workers__content-block">
+                                    <div class="workers__position">Должность</div>
+                                    <div class="workers__description">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit. Mauris soll</div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="workers__item">
+                            <div class="workers__image">
+                                <img src="./img/team/person1.jpg" alt="" class="workers__img">
+
+                            </div>
+                            <button class="workers__title" type="button">Imię Imię</button>
+                            <div class="workers__content">
+                                <div class="workers__content-block">
+                                    <div class="workers__position">Должность</div>
+                                    <div class="workers__description">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit. Mauris soll</div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="workers__item">
+                            <div class="workers__image">
+                                <img src="./img/team/person1.jpg" alt="" class="workers__img">
+
+                            </div>
+                            <button class="workers__title" type="button">Imię Imię</button>
+                            <div class="workers__content">
+                                <div class="workers__content-block">
+                                    <div class="workers__position">Должность</div>
+                                    <div class="workers__description">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit. Mauris soll</div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="workers__item">
+                            <div class="workers__image">
+                                <img src="./img/team/person1.jpg" alt="" class="workers__img">
+
+                            </div>
+                            <button class="workers__title" type="button">Imię Imię</button>
+                            <div class="workers__content">
+                                <div class="workers__content-block">
+                                    <div class="workers__position">Должность</div>
+                                    <div class="workers__description">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit. Mauris soll</div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <!-- mobile -->
+                    <ul class="workers workers--version--mobile">
+                        <li class="workers__item">
+                            <button class="workers__title" type="button">Imie Imie</button>
+                            <div class="workers__content">
+                                <div class="workers__content-block">
+                                    <div class="workers__image">
+                                        <img src="./img/team/person1.jpg" alt="" class="workers__img">
+                                    </div>
+                                    <div class="workers__position">Должность</div>
+                                    <div class="workers__description">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit. Mauris soll</div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="workers__item">
+                            <button class="workers__title" type="button">Imie Imie</button>
+                            <div class="workers__content">
+                                <div class="workers__content-block">
+                                    <div class="workers__image">
+                                        <img src="./img/team/person1.jpg" alt="" class="workers__img">
+                                    </div>
+                                    <div class="workers__position">Должность</div>
+                                    <div class="workers__description">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit. Mauris soll</div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="workers__item">
+                            <button class="workers__title" type="button">Imie Imie</button>
+                            <div class="workers__content">
+                                <div class="workers__content-block">
+                                    <div class="workers__image">
+                                        <img src="./img/team/person1.jpg" alt="" class="workers__img">
+                                    </div>
+                                    <div class="workers__position">Должность</div>
+                                    <div class="workers__description">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit. Mauris soll</div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="workers__item">
+                            <button class="workers__title" type="button">Imie Imie</button>
+                            <div class="workers__content">
+                                <div class="workers__content-block">
+                                    <div class="workers__image">
+                                        <img src="./img/team/person1.jpg" alt="" class="workers__img">
+                                    </div>
+                                    <div class="workers__position">Должность</div>
+                                    <div class="workers__description">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit. Mauris soll</div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
 
                 </div>
             </section>
+
+
+
             <section id="reviews" class="section" class="section__reviews">
                 <h2 class="section__title">Opinie</h2>
-                <!-- <div class="section__content"> -->
                 <div class="elfsight-app-45eb0560-689a-4fcf-a355-5fd5bba4787d"></div>
 
-                <!-- </div> -->
+
+                <!-- <div id="google-reviews"></div> -->
+
             </section>
             <section id="map" class="section" class="section__map">
                 <h2 class="section__title">Kontakt</h2>
@@ -200,31 +332,33 @@
                             <img src="./img/logo.PNG" alt="13 wyspa logo" class="logo__img">
                         </a>
                     </div>
-                    <div class="footer__contact">
-                        <div class="footer__address">ul. Uniwersytecka 11/3, 50-145 Wrocław</div>
-                        <a href="tel:+48 513 693 892" class="phone-number footer__phone">
-                            <div class="footer__phone-icon">
-                                <img src="./img/icons/phone.svg" alt="" class="phone-icon">
-                            </div>
-                            <div class="footer__phone-number">
-                                513 693 892
-                            </div>
-                        </a>
+                    <div class="footer__info">
+                        <div class="footer__contact">
+                            <div class="footer__address">ul. Uniwersytecka 11/3, 50-145 Wrocław</div>
+                            <a href="tel:+48 513 693 892" class="phone-number footer__phone">
+                                <div class="footer__phone-icon">
+                                    <img src="./img/icons/phone.svg" alt="" class="phone-icon">
+                                </div>
+                                <div class="footer__phone-number">
+                                    513 693 892
+                                </div>
+                            </a>
+                        </div>
+                        <ul class="socials">
+                            <li class="socials__item socials__item--insta">
+                                <a href="https://www.instagram.com/13_wyspa/" class="socials__link"></a>
+                            </li>
+                            <li class="socials__item socials__item--fb">
+                                <a href="https://m.facebook.com/13-WYSPA-100920158971960/" class="socials__link"></a>
+                            </li>
+                            <li class="socials__item socials__item--telegram">
+                                <a href="" class="socials__link"></a>
+                            </li>
+                            <li class="socials__item socials__item--whatsapp">
+                                <a href="" class="socials__link"></a>
+                            </li>
+                        </ul>
                     </div>
-                    <ul class="socials">
-                        <li class="socials__item socials__item--insta">
-                            <a href="https://www.instagram.com/13_wyspa/" class="socials__link"></a>
-                        </li>
-                        <li class="socials__item socials__item--fb">
-                            <a href="https://m.facebook.com/13-WYSPA-100920158971960/" class="socials__link"></a>
-                        </li>
-                        <li class="socials__item socials__item--telegram">
-                            <a href="" class="socials__link"></a>
-                        </li>
-                        <li class="socials__item socials__item--whatsapp">
-                            <a href="" class="socials__link"></a>
-                        </li>
-                    </ul>
                 </div>
             </footer>
 
@@ -248,6 +382,28 @@
     <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
     <script src="./js/slider.js"></script>
     <script src="./js/ops.js"></script>
+    <script src="./js/acco.js"></script>
+
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script
+        src="https://cdn.jsdelivr.net/gh/stevenmonson/googleReviews@6e8f0d794393ec657dab69eb1421f3a60add23ef/google-places.js">
+    </script>
+    <script
+        src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyDQuHpZyNjEOlVQKI4lov7c6P9e_q1uIeY&signed_in=true&libraries=places">
+    </script>
+
+    <script>
+        jQuery(document).ready(function ($) {
+            $("#google-reviews").googlePlaces({
+                placeId: 'ChIJN3JULozpD0cR7IHRs1KJTac', //Find placeID @: https://developers.google.com/places/place-id
+                    
+                render: ['reviews'],
+                min_rating: 4,
+                max_rows: 4
+            });
+        }); -->
+    </script>
 </body>
 
 </html>

@@ -1,25 +1,28 @@
-.socials{
-display: flex;
-align-items: center;
-justify-content: flex-end;
+.socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-// .socials__item {
-//     display: inline-block;
-//     vertical-align: middle;
-// }
-.socials__item{
-    position: relative;
-    width: 88px;
-    height: 88px;
+
+.socials__item {
+    // position: relative;
+    width: rem(30px);
+    height: rem(30px);
+    margin-right: 15px;
+
+    &:last-child{
+        margin: 0;
+    }
 }
 
 .socials__link {
     position: absolute;
     display: block;
     text-decoration: none;
-    height: 100%;
-    width: 100%;
-   
+    text-align: center;
+    width: rem(30px);
+    height: rem(30px);
+
 }
 
 .socials__item--insta .socials__link {
@@ -45,6 +48,7 @@ justify-content: flex-end;
         background-image: url("../img/icons/tg-hover.svg");
     }
 }
+
 .socials__item--whatsapp .socials__link {
     background-image: url("../img/icons/whatsapp.svg");
 

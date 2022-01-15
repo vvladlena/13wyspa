@@ -2,34 +2,39 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-size: 26px;
+    font-size: rem(26px);
+}
+
+.menu{
+    margin: 0 30px;
 }
 
 .menu__list {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .menu__item {
-    margin-right: 25px;
+    margin-right: rem(25px);
     position: relative;
 
     &:last-child {
         margin-right: 0;
     }
 
-    &:hover:after{
+    &:hover:after {
         content: '';
         position: absolute;
         width: 150%;
-        height: 2px;
+        height: rem(2px);
         // background-color: $thirdColor;
         background: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba($light, 0.7) 50%, rgba(0, 0, 0, 0) 85%);
-        // bottom: 20px;
+        // bottom: rem(20px);
         left: 50%;
         transform: translate(-50%);
-        margin-top: 40px;
+        margin-top: rem(40px);
     }
 }
 
@@ -38,13 +43,29 @@
 }
 
 .phone-number {
+    // display: block; 
+    // white-space: nowrap;
     text-decoration: none;
 }
 
 .header__right-part {
-    height: 40px;
+    height: rem(40px);
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     justify-content: baseline;
+    white-space: nowrap;
+
+}
+
+.menu {
+    @include tablets {
+        display: none;
+    }
+}
+
+.header__right-part{
+    @include tablets {
+        display: none;
+    }
 }

@@ -1,22 +1,22 @@
 .dropdown {
     position: relative;
     display: flex;
-    font-size: 18px;
+    font-size: rem(18px);
     justify-content: flex-end;
     align-items: start;
     
 }
 .dropdown__btn{
-   height: 20px;
-    font-size: 18px;
+   height: rem(20px);
+    font-size: rem(18px);
 }
 .dropdown-content {
     display: none;
     position: absolute;
     background: rgba($thirdColor, .3);
-    min-width: 200px;
+    min-width: rem(200px);
     z-index: 1;
-    padding: 5px;
+    padding: rem(5px);
     border-radius: 5%;
 }
 

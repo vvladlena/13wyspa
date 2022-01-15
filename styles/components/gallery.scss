@@ -1,13 +1,13 @@
 .section__gallery {
     height: 200vh;
     position: relative;
-    padding: 45px 0;
+    padding: rem(45px) 0;
 }
 
 .gallery-img {
-    width: 150px;
-    height: 150px;
-    margin: 10px;
+    width: rem(150px);
+    height: rem(150px);
+    margin: rem(10px);
 
 }
 
@@ -44,7 +44,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 16px;
+    font-size: rem(16px);
     opacity: 0;
     transition: opacity .5s ease;
     z-index: 2;
@@ -60,7 +60,7 @@
 }
 
 .gallery-item img {
-    min-width: 100px;
+    min-width: rem(100px);
     height: auto;
     transition: all .5s ease;
 }
