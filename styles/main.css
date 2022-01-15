@@ -112,6 +112,9 @@ img {
   align-items: center;
   justify-content: center;
   animation: mymove 5s infinite; }
+  @media screen and (max-width: 768px) {
+    .hero__name {
+      width: 90%; } }
 
 @keyframes mymove {
   50% {
@@ -321,7 +324,17 @@ footer {
       margin-right: 0; } }
 
 .footer__address {
-  text-align: center; }
+  text-align: center;
+  display: flex;
+  align-items: center; }
+  @media screen and (max-width: 768px) {
+    .footer__address {
+      flex-direction: column; } }
+  .footer__address .address-street {
+    margin-right: 10px; }
+    @media screen and (max-width: 768px) {
+      .footer__address .address-street {
+        margin-right: 0; } }
 
 .footer__phone {
   display: flex;

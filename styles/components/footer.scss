@@ -52,6 +52,22 @@ footer {
 
 .footer__address{
     text-align: center;
+    display: flex;
+    align-items: center;
+
+    @include tablets{
+        flex-direction: column;
+    }
+    
+    .address-street{
+        margin-right: 10px;
+        @include tablets{
+        margin-right: 0;
+        }
+    }
+
+    
+   
 }
 
 .footer__phone {
