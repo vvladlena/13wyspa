@@ -79,7 +79,7 @@ img {
     content: url("../img/decor/spark1.png"); }
     @media screen and (max-width: 768px) {
       .hero:before {
-        display: none; } }
+        content: ''; } }
 
 .hero__title-name {
   font-size: 2.5rem;
@@ -342,6 +342,9 @@ footer {
   justify-content: center; }
   .footer__phone-icon {
     margin-right: 2%; }
+  @media screen and (max-width: 768px) {
+    .footer__phone {
+      margin-bottom: 5px; } }
 
 .phone-icon {
   width: 1rem;
