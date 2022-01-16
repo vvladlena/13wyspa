@@ -497,7 +497,7 @@ footer {
       padding: 0;
       color: #ffffff;
       overflow: hidden;
-      position: fixed;
+      position: absolute;
       top: 0;
       bottom: 0;
       right: 0;
@@ -513,7 +513,8 @@ footer {
       transition: transform .3s;
       will-change: transform;
       backface-visibility: hidden;
-      z-index: 9; } }
+      z-index: 9;
+      height: 100vh; } }
 
 .menu__item {
   margin-right: 1.3888888889rem;
