@@ -481,6 +481,9 @@ footer {
 .menu {
   margin: 0 30px;
   user-select: none; }
+  @media screen and (max-width: 768px) {
+    .menu {
+      margin: 0; } }
 
 .menu__list {
   display: flex;
