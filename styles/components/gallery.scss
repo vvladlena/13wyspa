@@ -63,22 +63,12 @@
     min-width: rem(100px);
     height: auto;
     transition: all .5s ease;
-}
 
-@media(max-width: 991px) {
-    .gallery-item {
+    @include tablets {
         flex: 33.3%;
     }
-}
 
-@media(max-width: 768px) {
-    .gallery-item {
+    @include phones {
         flex: 50%;
     }
 }
-
-// @media(max-width: 530px) {
-//     .gallery-item {
-//         flex: 100%;
-//     }
-// }

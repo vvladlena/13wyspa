@@ -1,4 +1,4 @@
-section{
+section {
     height: auto;
     min-height: 100vh;
     // max-height: auto;
@@ -9,7 +9,12 @@ section{
     justify-content: center;
     align-items: center;
 }
-.section__title{
+
+.section__title {
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
     text-transform: uppercase;
     font-size: rem(44px);
     color: $thirdColor;
@@ -20,7 +25,7 @@ section{
     position: relative;
     margin-bottom: rem(35px);
 
-    &::after{
+    &::after {
         content: '';
         position: absolute;
         width: rem(250px);
