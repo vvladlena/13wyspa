@@ -1,5 +1,4 @@
 .section__gallery {
-    // height: 200vh;
     position: relative;
     padding: rem(45px) 0;
 }
@@ -63,12 +62,17 @@
     min-width: rem(100px);
     height: auto;
     transition: all .5s ease;
+}
 
-    @include tablets {
+@media(max-width: 991px) {
+    .gallery-item {
         flex: 33.3%;
     }
+}
 
-    @include phones {
+@media(max-width: 768px) {
+    .gallery-item {
         flex: 50%;
     }
 }
+

@@ -248,13 +248,13 @@ section {
   min-width: 5.5555555556rem;
   height: auto;
   transition: all .5s ease; }
-  @media screen and (max-width: 768px) {
-    .gallery-item img {
-      flex: 33.3%; } }
-  @media screen and (max-width: 480px) {
-    .gallery-item img {
-      flex: 50%; } }
 
+@media (max-width: 991px) {
+  .gallery-item {
+    flex: 33.3%; } }
+@media (max-width: 768px) {
+  .gallery-item {
+    flex: 50%; } }
 footer {
   color: #ffffff;
   height: 8.3333333333rem;
