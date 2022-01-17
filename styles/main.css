@@ -462,9 +462,11 @@ footer {
   top: 100%; }
 
 .workers__content-block {
-  padding-bottom: 5px;
-  max-width: 250px;
+  padding: 0 0.5555555556rem 0.5555555556rem 0.5555555556rem;
   background: rgba(102, 102, 102, 0.7); }
+  @media screen and (max-width: 768px) {
+    .workers__content-block {
+      max-width: 250px; } }
 
 @media screen and (max-width: 768px) {
   .workers__image {

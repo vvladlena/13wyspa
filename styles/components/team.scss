@@ -83,9 +83,13 @@ min-height: rem(700px);
 }
 
 .workers__content-block {
-    padding-bottom: 5px;
-    max-width: 250px;
+    padding: 0 rem(10px) rem(10px) rem(10px);
+   
     background: rgba($thirdColor, .7);
+
+    @include tablets{
+        max-width: 250px;
+    }
 
 }
 
