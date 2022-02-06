@@ -1,7 +1,7 @@
 .hero {
     background:
         linear-gradient(to top, rgba(0, 0, 0, 0.9) 10%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.9) 85%),
-        url("../img/background/hero_background.png") center center no-repeat;
+        url("../img/background/hero_background.jpg") center center / cover no-repeat;
     color: $light;
     height: 100vh;
     position: relative;

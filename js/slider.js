@@ -1,4 +1,4 @@
 $('.slider').bxSlider({
     pager: false,
-    auto: true
+    // auto: true
 });
